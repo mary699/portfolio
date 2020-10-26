@@ -217,15 +217,20 @@ display: flex;
 justify-content: space-between;
 }
 .box-1{
-background-image: url("./image/bg.png");
-
+background-image: url("./image/newlogo.png");
+width: 200px;
+height: 200px;
 }
 .box-2{
-    background-image: url("./image/bg.png");
+    background-image: url("./image/Subtract\ \(1\).svg");
+width: 200px;
+    height: 200px;
    
 }
 .box-3{
-    background-image: url("./image/bg.png");
+    background-image: url("./image/logo.png");
+    width: 200px;
+    height: 200px;
 }
 
 .box-1 span,.box-2 span,.box-3 span{
@@ -346,3 +351,15 @@ transition: all ease 0.5s;
     bottom: 10px;
     transform:translateX(-50)
 }
+
+
+
+
+/* media query */
+
+
+
+
+
+
+
