@@ -281,3 +281,68 @@ color: white;
     font-weight: bold;
     border-bottom: 2px solid red;
 }
+.contact-me button{
+    width: 200px;
+    height: 40px;
+    background-color: lightsalmon;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* footer */
+footer{
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+
+}
+footer p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+footer p:nth-child(1){
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: bold;
+color: red;
+line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 16px;
+    color: blue;
+    width: 600px;
+    text-align: center;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+.social-icons a:hover{
+    background-color: red;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+transition: all ease 0.5s;
+}
+.social-icons img:hover{
+transition: all ease 0.5s;
+}
+.social-icons{
+    display: flex;
+}
+.copyright{
+    color: maroon;
+    font-size: 13px;
+    position: absolute;
+ text-align: center;
+    bottom: 10px;
+    transform:translateX(-50)
+}
