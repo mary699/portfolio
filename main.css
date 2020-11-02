@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: coral;
+}
+/* ----------NAVIGATION */
+.nav{
+    border-bottom: 1px solid blue;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+
+}
+.logo{
+   
+    float: left;
+    margin: 0px 0px 0px 30px;
+
+}
+.logo img{
+    width: 50px;
+    height: 55px;
+    margin-top: 10px;
+}
+.menu{
+    margin: 0 100px 0 0;
+ 
+  
+
+}
+.menu a{
+    text-decoration: none;
+    color: blue;
+    margin: 0 10px;
+    line-height: 70px;
+    clear: right;
+    
+}
+
+.menu a:hover{
+    color: red;
+}
+span{
+    color: red;
+}
+span:hover{
+    color: blue;
+}
+label{
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle{
+    display: none;
+}
+/* ----------NAVIGATION   ENDS HERE*/
+
+
+/* ----------MEDIA QUERY */
+@media (max-width: 600px){
+    
+/* NAVIGATION START HERE */
+
+label{
+    display: block;
+    cursor: pointer;
+}
+
+.logo{
+    float: left;
+    margin: 0px;
+    height: 65px;
+
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+ 
+}
+
+.menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+}
+.menu a{
+    display: block;
+    border-bottom: 1px solid white;
+    margin: 1px;
+    background-color: blue;
+    color: white;
+}
+#toggle:checked + .menu{
+    display: block; 
+}
+
+/* NAVIGATION ENDS HERE */
+}
