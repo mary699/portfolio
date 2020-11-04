@@ -44,7 +44,7 @@ a{
 }
 
 .menu a:hover{
-    color: #145dac;
+    color: red;
 }
 
 label{
@@ -107,7 +107,7 @@ label{
 }
 .banner-text p{
     font-size: 12px;
-    line-height: 1.0rem;
+    line-height: 1.5rem;
     padding: 5px 0px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -132,6 +132,7 @@ label{
     display: 4;
     width: 70%;
     margin: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .abouttext-first h1{
@@ -195,30 +196,46 @@ label{
 /* --------------SERVICES STARTS HERE */
 
 .services{
-    height: 80vh;
+    height: 70vh;
     border: 4px solid red;
     background-color: rgba(128, 128, 128, 0.111);
 }
-.servicetext{
+.servicetext h1{
     border: 2px solid blue;
-    height: 25vh;
+    height: 10vh;
     margin: 20px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .servicetext-sub{
-    border: 2px solid green;
     height: 45vh;
     margin: 20px;
     display: flex;
 }
 .servicetext-sub-three{
-    border: 2px solid red;
     flex: 2;
-    margin: 20px;
-    box-shadow: rgba(128, 128, 128, 0.111);
+    box-shadow: 2px 2px 12px rgba(83, 83, 83, 0.2);
+    margin-right: 25px;
+    background-color: white;
 }
+.service-detail{
+height: 44vh;
 
+
+}
+.service-detail-icon{
+
+}
+.service-detail-header h1{
+    font-size: 20px;
+    text-align: center;
+
+}
+.service-detail-text{
+    font-size: 14px;
+    line-height: 1.5em;
+    text-align: center;
+}
 /* ---------------SERVICES ENDS HERE */
 
 
@@ -308,8 +325,10 @@ label{
     color: blue; 
     width: 40%;
     margin: 5px;
-  
     font-weight: bolder;
+}
+.menu a:hover{
+    color: red;
 }
 #toggle:checked + .menu{
     display: block; 
@@ -338,7 +357,7 @@ label{
  /* --------------SUB-DIV STARTS HERE */
  .sub-div{
  
-     height: 270vh;
+     height: 570vh;
      background-color: white;
      margin: 0px 10px;
      box-shadow: rgb(158, 167, 177 ,0.3) ;
@@ -387,6 +406,19 @@ label{
     display: block;
 
 }
+.abouttext-first h1{
+    font-size: 20px;
+}
+.abouttext-second h4{
+    font-size: 16px;
+}
+.abouttext-third p{
+    font-size: 10px;
+}
+
+.abouttext-button button{
+    font-size: 10px;
+}
 .aboutimg{
     display: block;
     margin-left: 20px;
@@ -394,4 +426,60 @@ label{
     height: 100%;
 }
 /* ---------------ABOUT PAGES ENDS HERE */
+
+/* --------------SERVICES STARTS HERE */
+
+
+.services{
+    
+    height: 180vh;
+    background-color: rgba(128, 128, 128, 0.111);
+    display: block;
+    position: relative;
+    top: 350px;
+
+}
+
+.servicetext h1{
+    height: 10vh;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.servicetext-sub{
+    margin: 20px;
+    display: block;
+    width: 100%;
+}
+.servicetext-sub-three{
+    display: block;
+    box-shadow: 2px 2px 12px rgba(83, 83, 83, 0.2);
+    margin-bottom: 25px;
+    background-color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.service-detail{
+height: 44vh;
+
+
+}
+.service-detail-icon{
+
+}
+.service-detail-header h1{
+    font-size: 16px;
+    text-align: center;
+
+}
+.service-detail-text{
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+
+
+/* --------------SERVICES ENDS HERE */
+
 }
