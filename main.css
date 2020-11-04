@@ -217,7 +217,7 @@ label{
     background-color: white;
 }
 .service-detail{
-height: 44vh;
+    height: 44vh;
 
 
 }
@@ -254,15 +254,33 @@ height: 44vh;
     flex: 3;
     margin: 20px 10px 20px 15px;
 }
-.skill-left-first{
-
+.skill-left-first h1{
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .skill-left-second{
 
 }
 .skill-left-third{
-
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
 }
+
+.skill-left-third p{
+    border: 2px solid black;
+}
+
+.empty{
+border: 2px solid red;
+height: 10px;
+}
+
+
+
+
+
+
+
    
 .skill-right{
     border: 2px solid blue;
