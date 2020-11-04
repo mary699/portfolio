@@ -94,7 +94,6 @@ label{
 
 }
 .banner-text{
-    border: 2px solid blue;
     width: 30%;
     position: absolute;
     top: 370px;
@@ -130,38 +129,72 @@ label{
    display: flex;
 }
 .abouttext{
-    border: 2px solid blue;
     display: 4;
     width: 70%;
     margin: 20px;
 }
-.aboutimg{
-    border: 2px solid purple;
-    display: 2;
-    width: 50%;
-    margin: 20px 55px 20px 0px;
-}
+
 .abouttext-first h1{
-    border: 2px solid red;
-font-weight: lighter;
-font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.abouttext-second h4{
-    border: 2px solid red;
-    margin-top: 10px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.abouttext-second h4{
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(51, 50, 50);
+    font-size: 20px;
+}
 .abouttext-third p{
-    border: 2px solid red;
     margin-top: 10px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
     line-height: 1.5rem;
+    color: grey;
 }
+.abouttext-button{
+    display: flex;
+    margin-top: 15px;
+}
+.abouttext-button-left button{
+    background-color: rgb(21, 81, 172);
+    width: 120px;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    outline: none;
 
+}
+.abouttext-button-right button{
+    background-color: rgb(21, 81, 172);
+    width: 80px;
+    color: white;
+    height: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    outline: none;
+    margin-left: 5px;
+}
+.aboutimg{
+    display: 2;
+    width: 50%;
+    margin: 20px 55px 20px 0px;
+}
+.aboutimg img{
+    width: 100%;
+    height: 100%;
+}
 /* --------------ABOUT ENDS HERE */
+/* --------------SEERVICES STARTS HERE */
+
+
+/* ---------------SERVICES ENDS HERE */
 
 
 
@@ -298,7 +331,6 @@ label{
    
 }
 .banner-text{
-    border: 2px solid blue;
     width: 70%;
     position: absolute;
     top: 230px;
@@ -306,15 +338,15 @@ label{
     color: cornsilk;
 }
 .banner-text h1{
-    font-size: 16px;
+    font-size: 14px;
 }
 .banner-text p{
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.0rem;
     padding: 5px 0px;
 }
 .banner-text button{
-    font-size: 10px;
+    font-size: 8px;
     padding: 3px;
     background: transparent;
     border: 2px solid white;
@@ -322,7 +354,19 @@ label{
 }
 /* --------------BANNER ENDS HERE */
 
+/* ---------------ABOUT PAGES STARTS HERE */
+.about{
+    display: block;
+}
+.abouttext{
+    display: block;
 
-
-
+}
+.aboutimg{
+    display: block;
+    margin-left: 20px;
+    width: 65%;
+    height: 100%;
+}
+/* ---------------ABOUT PAGES ENDS HERE */
 }
