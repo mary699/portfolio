@@ -191,8 +191,33 @@ label{
     height: 100%;
 }
 /* --------------ABOUT ENDS HERE */
-/* --------------SEERVICES STARTS HERE */
 
+/* --------------SERVICES STARTS HERE */
+
+.services{
+    height: 80vh;
+    border: 4px solid red;
+    background-color: rgba(128, 128, 128, 0.111);
+}
+.servicetext{
+    border: 2px solid blue;
+    height: 25vh;
+    margin: 20px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.servicetext-sub{
+    border: 2px solid green;
+    height: 45vh;
+    margin: 20px;
+    display: flex;
+}
+.servicetext-sub-three{
+    border: 2px solid red;
+    flex: 2;
+    margin: 20px;
+    box-shadow: rgba(128, 128, 128, 0.111);
+}
 
 /* ---------------SERVICES ENDS HERE */
 
@@ -333,7 +358,7 @@ label{
 .banner-text{
     width: 70%;
     position: absolute;
-    top: 230px;
+    top: 200px;
     left: 10px;
     color: cornsilk;
 }
@@ -365,7 +390,7 @@ label{
 .aboutimg{
     display: block;
     margin-left: 20px;
-    width: 65%;
+    width: 75%;
     height: 100%;
 }
 /* ---------------ABOUT PAGES ENDS HERE */
