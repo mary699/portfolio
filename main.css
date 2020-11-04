@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #A9A9A9;
+    background-color: blue;
     height: 350vh;
 }
 a{
@@ -35,7 +35,7 @@ a{
 
 .menu a{
     text-decoration: none;
-    color: blue;
+    color: white;
     margin: 0 10px;
     line-height: 20px;
     clear: right;
@@ -59,7 +59,6 @@ label{
     display: none;
 }
 
-
 /* ----------NAVIGATION   ENDS HERE*/
 /* ----------PROFILE STARST HERE */
 .profile{
@@ -67,13 +66,9 @@ label{
 }
 .profile h1{
     text-align: center;
-    color: black;
+    color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
-
-
 /* ----------PROFILE ENDS HERE */
 
 /* --------------SUB-DIV STARTS HERE */
@@ -109,11 +104,13 @@ label{
 .banner-text h1{
     font-size: 30px;
     color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .banner-text p{
     font-size: 12px;
     line-height: 1.0rem;
     padding: 5px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .banner-text button{
     font-size: 10px;
@@ -121,13 +118,14 @@ label{
     background: transparent;
     border: 2px solid white;
     color: cornsilk;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* --------------BANNER ENDS HERE */
 
 /* --------------ABOUT STARTS HERE */
 .about{
-    border: 2px solid red;
+    /* border: 2px solid red; */
    height: 70vh;
    display: flex;
 }
@@ -143,6 +141,26 @@ label{
     width: 50%;
     margin: 20px 55px 20px 0px;
 }
+.abouttext-first h1{
+    border: 2px solid red;
+font-weight: lighter;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abouttext-second h4{
+    border: 2px solid red;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abouttext-third p{
+    border: 2px solid red;
+    margin-top: 10px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5rem;
+}
+
 /* --------------ABOUT ENDS HERE */
 
 
@@ -229,7 +247,7 @@ label{
 }
 .menu a{
     display: block;
-    color: blue;
+    color: blue; 
     width: 40%;
     margin: 5px;
   
