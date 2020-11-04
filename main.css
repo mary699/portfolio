@@ -128,9 +128,21 @@ label{
 /* --------------ABOUT STARTS HERE */
 .about{
     border: 2px solid red;
-   height: ;
+   height: 70vh;
+   display: flex;
 }
-
+.abouttext{
+    border: 2px solid blue;
+    display: 4;
+    width: 70%;
+    margin: 20px;
+}
+.aboutimg{
+    border: 2px solid purple;
+    display: 2;
+    width: 50%;
+    margin: 20px 55px 20px 0px;
+}
 /* --------------ABOUT ENDS HERE */
 
 
