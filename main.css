@@ -196,7 +196,7 @@ label{
 /* --------------SERVICES STARTS HERE */
 
 .services{
-    height: 70vh;
+    height: 65vh;
     background-color: rgba(128, 128, 128, 0.111);
 }
 .servicetext h1{
@@ -244,13 +244,13 @@ label{
 .skill{
     background-color: white;
     height:70vh;
-    border: 4px solid blueviolet;
+    /* border: 4px solid blueviolet; */
     display: flex;
  
 }
 
 .skill-left{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     flex: 3;
     margin: 20px 10px 20px 15px;
 }
@@ -303,35 +303,48 @@ background-color: red;
         
 }
 
-
-
-
-
-
-
-
-
-
-
-
    
 .skill-right{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     flex: 3;
     margin: 20px;
-
+    display: block;
 
 }
 
 .skill-right-first{
-
+    display: flex;
+    /* border: 2px solid red; */
+    height: 25vh;
+   margin-top: 50px;
 }
-.skill-right-second{
-
+.skil-right-first-box{
+    /* border: 2px solid blue; */
+    flex: 2;
+    text-align: center;
 }
-.skill-right-third{
-
+.skil-right-first-box img{
+    width: 30%;
+   
 }
+.skil-right-first-box h1{
+    font-size: 35px;
+}
+
+.skil-right-first-box p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skill-right-second p{
+    color: grey;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.3rem;
+    
+}
+
 
 
 
