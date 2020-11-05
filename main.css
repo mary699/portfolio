@@ -73,7 +73,7 @@ label{
 
 /* --------------SUB-DIV STARTS HERE */
 .sub-div{
-    height: 550vh;
+    height: 460vh;
     background-color: white;
     margin: 0px 90px;
     box-shadow: rgb(158, 167, 177 ,0.3) ;
@@ -361,6 +361,7 @@ background-color: red;
     /* border: 2px solid black; */
     height: 15vh;
 }
+
 .project-img{
     /* border: 2px solid purple; */
     height: 50vh;
@@ -368,6 +369,7 @@ background-color: red;
  
    
 }
+
 .images img{
     flex: 2;
     width: 100%;
@@ -380,6 +382,7 @@ background-color: red;
     height: 15vh;
     font-size: 33px;
     margin: 20px;
+    padding-top: 30px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -417,10 +420,23 @@ background-color: red;
 }
 
 /* -------PROJECTS ENDS HERE */
+/* ----------------EDUCATION AND EXPERIENCE STARTS HERE*/
+.eduex{
+    border: 2px solid red;
+}
+.eduexp{
+    border: 2px solid red;
+    height: 70vh;
+}
 
 
 
 
+
+
+
+
+/* EDUCATION AND EXPERIENCE ENDS HERE */
 
 
 
@@ -697,20 +713,20 @@ height: 30vh;
     height: 22vh;
    margin-top: 0px;
 }
-.skil-right-first-box{
+.skill-right-first-box{
     flex: 2;
     text-align: center;
 }
-.skil-right-first-box img{
+.skill-right-first-box img{
     width: 35%;
    
 }
-.skil-right-first-box h1{
+.skill-right-first-box h1{
     font-size: 18px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.skil-right-first-box p{
+.skill-right-first-box p{
     font-size: 14px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -740,9 +756,13 @@ height: 30vh;
     font-size: 20px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
 }
 .project-img{
 display: block;
+}
+.project-text h1{
+    padding-top: 30px;
 }
 .images img{
     flex: 2;
@@ -783,5 +803,24 @@ display: block;
     left: 90px;
 }
 /* -------------PROJECTS ENDS HERE */
+
+/* ----------------EDUCATION AND EXPERIENCE STARTS HERE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDUCATION AND EXPERIENCE ENDS HERE */
 
 }
