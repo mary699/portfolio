@@ -318,20 +318,20 @@ background-color: red;
     height: 25vh;
    margin-top: 50px;
 }
-.skil-right-first-box{
+.skill-right-first-box{
     /* border: 2px solid blue; */
     flex: 2;
     text-align: center;
 }
-.skil-right-first-box img{
+.skill-right-first-box img{
     width: 30%;
    
 }
-.skil-right-first-box h1{
-    font-size: 35px;
+.skill-right-first-box h1{
+    font-size: 20px;
 }
 
-.skil-right-first-box p{
+.skill-right-first-box p{
     font-size: 14px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -345,18 +345,40 @@ background-color: red;
     
 }
 
-
-
-
-
-
 /* -----------SKILLS ENDS HERE */
 
+/* -------PROJECTS STARTS HERE */
+.projects{
+    border: 2px solid red;
+}
+.project{
+    height: 65vh;
+    background-color: rgba(128, 128, 128, 0.111);
+    display: block;
+}
+.project-text{
+border: 2px solid black;
+height: 15vh;
+}
+.project-img{
+    border: 2px solid purple;
+    height: 50vh;
+}
 
 
 
 
+.project-text h1{
+    height: 15vh;
+    font-size: 33px;
+    margin: 13px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
+
+
+/* -------PROJECTS ENDS HERE */
 
 
 
@@ -579,8 +601,8 @@ height: 30vh;
 
 }
 .service-detail-text{
-    font-size: 12px;
-    line-height: 1.5em;
+    font-size: 10px;
+    line-height: 1.3rem;
     text-align: center;
     padding: 0px 5px;
 }
@@ -600,12 +622,11 @@ height: 30vh;
 }
 
 .skill-left{
-    border: 2px solid red;
+    /* border: 2px solid red; */
  display: block;
     margin: 20px 10px 20px 15px;
 }
 .skill-right{
-    border: 2px solid blue;
     display: block;
     margin: 20px;
 
@@ -620,7 +641,7 @@ height: 30vh;
     margin-top: 5px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     line-height: 1.3rem;
     color: grey;
 }
@@ -629,6 +650,52 @@ height: 30vh;
     font-size: 12px;
     margin-top: 5px;
 }
+
+.skill-right{
+    margin: 40px 10px 20px 15px;
+}
+.skill-right-first{
+    display: flex;
+    height: 22vh;
+   margin-top: 0px;
+}
+.skil-right-first-box{
+    flex: 2;
+    text-align: center;
+}
+.skil-right-first-box img{
+    width: 35%;
+   
+}
+.skil-right-first-box h1{
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.skil-right-first-box p{
+    font-size: 14px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.skill-right-second{
+    margin: 0px;
+    
+}
+.skill-right-second p{
+    color: grey;
+    font-size: 11px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.3rem;
+    margin: 0px;
+}
 /* ----SKILLS ENDS HERE */
+
+/* -------------PROJECTS STARTS HERE */
+display: block;
+position: relative;
+top: 380px;
+
+
+/* -------------PROJECTS ENDS HERE */
 
 }
