@@ -451,10 +451,17 @@ background-color: red;
 }
 .eduexp-bottom-left h1{
     
-    color: blue;
+    color: white;
     border: 2px solid red;
+    height: 40px;
+    padding-top: 5px;
     width: 35%;
-    text-align: right;
+    margin-left: 284px;
+    text-align: center;
+    background-color:#145dac;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
@@ -464,12 +471,66 @@ background-color: red;
 
 }
 .eduexp-bottom-right h1{
-    color: blue;
+    color: white;
     border: 2px solid red;
+    height: 40px;
+    padding-top: 5px;
     width: 35%;
+    background-color: rgb(46, 46, 46);
+    font-size: 20px;
+    text-align: center;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.education-details{
+    border: 2px solid blue;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.education-details h3{
+border: 2px solid red;
+
+font-size: 18px;
+}
+
+.education-details p{
+    border: 2px solid purple;
+    color: rgb(66, 65, 65);
+    font-size: 14px;
+}
+
+.education-details h4{
+    border: 2px solid goldenrod;
+    color: rgb(66, 65, 65);
+
 }
 
 
+.experience-details{
+    border: 2px solid blue;
+    margin-top: 20px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.experience-details h3{
+    border: 2px solid red;
+    
+    }
+    
+.experience-details p{
+        border: 2px solid purple;
+        color: rgb(66, 65, 65);
+        font-size: 14px;
+}
+    
+.experience-details h4{
+        border: 2px solid goldenrod;
+        color: rgb(66, 65, 65);
+
+}
 /* EDUCATION AND EXPERIENCE ENDS HERE */
 
 
