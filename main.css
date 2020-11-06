@@ -5,7 +5,7 @@
 }
 body{
     background-color: #145dac;
-    height:600vh;
+    height:550vh;
 }
 a{
     text-decoration: none;
@@ -73,7 +73,7 @@ label{
 
 /* --------------SUB-DIV STARTS HERE */
 .sub-div{
-    height: 460vh;
+    height: 500vh;
     background-color: white;
     margin: 0px 90px;
     box-shadow: rgb(158, 167, 177 ,0.3) ;
@@ -425,7 +425,7 @@ background-color: red;
 
 .eduexp{
     /* border: 2px solid red; */
-    height: 75vh;
+    height: 60vh;
     display: block;
 }
 
@@ -529,12 +529,21 @@ font-size: 18px;
 /* EDUCATION AND EXPERIENCE ENDS HERE */
 
 
+/* -----------CONTACT PAGES STARTS HERE */
+
+.contact{
+    border: 2px solid red;
+    height: 50vh;
+}
+.contact-text h1{
+    font-size: 33px;
+    margin: 15px;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 
-
-
-
-
+/* -----------CONTACT PAGES ENDS HERE */
 
 
 
@@ -855,9 +864,9 @@ display: block;
     padding-top: 30px;
 }
 .images img{
-    flex: 2;
+    display: block;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
    
 }
 .images a{
@@ -875,7 +884,7 @@ display: block;
     border: none;
     position: relative;
     top: -150px;
-     left: 50px;
+     left: 85px;
  
 }
 .images button:hover{
