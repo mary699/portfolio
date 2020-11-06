@@ -541,8 +541,14 @@ font-size: 18px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
+.contact-details{
+    border: 2px solid red;
+    font-weight: lighter;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.contact-details a{
+    color: black;
+}
 /* -----------CONTACT PAGES ENDS HERE */
 
 
@@ -909,7 +915,6 @@ display: block;
 .eduexp{
     /* border: 2px solid red; */
     display: block;
-    display: block;
     position: relative;
     top: 1415px;
 
@@ -1022,8 +1027,15 @@ font-size: 16px;
 /* EDUCATION AND EXPERIENCE ENDS HERE */
 
 /* -------------CONTACT PAGE STARTS HERE */
+.contact{
 
-
+    display: block;
+    position: relative;
+    top: 1435px;
+}
+.contact-details{
+    border: 2px solid red;
+}
 
 
 /* ------------------CONTACT PAGE ENDS HERE */
