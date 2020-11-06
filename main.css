@@ -253,7 +253,7 @@ label{
 .skill-left{
     /* border: 2px solid red; */
     flex: 3;
-    margin: 20px 10px 20px 15px;
+    margin: 20px 10px 20px 19px;
 }
 .skill-left-first h1{
     
@@ -325,7 +325,7 @@ background-color: red;
     flex: 2;
     text-align: center;
 }
-.skill-right-first-box img{
+.skill-right-first-box svg{
     width: 30%;
    
 }
@@ -543,11 +543,12 @@ font-size: 18px;
 }
 .contact-details{
     border: 2px solid red;
+    margin: 0px 90px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .contact-details a{
-    color: black;
+    color:gray;
 }
 /* -----------CONTACT PAGES ENDS HERE */
 
@@ -1031,12 +1032,26 @@ font-size: 16px;
 
     display: block;
     position: relative;
-    top: 1435px;
+    top: 1550px;
 }
 .contact-details{
     border: 2px solid red;
 }
+.contact-text h1{
+    font-size: 20px;
 
+}
+.contact-details{
+    margin: 0px 0px 0px 20px;
+
+    
+}
+.contact-details p{
+    font-size: 14px;
+}
+.contact-details a{
+    font-size: 12px;
+}
 
 /* ------------------CONTACT PAGE ENDS HERE */
 }
