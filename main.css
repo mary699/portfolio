@@ -73,7 +73,7 @@ label{
 
 /* --------------SUB-DIV STARTS HERE */
 .sub-div{
-    height: 500vh;
+    height: 515vh;
     background-color: white;
     margin: 0px 90px;
     box-shadow: rgb(158, 167, 177 ,0.3) ;
@@ -247,7 +247,6 @@ label{
     background-color: white;
     height:70vh;
     /* border: 4px solid blueviolet; */
-    display: flex;
  
 }
 
@@ -285,14 +284,14 @@ label{
 
 .emptyone{
 height: 10px;
-width: 70%;
+width: 50%;
 margin-bottom:15px;
 background-color: red;
 
 }
 .emptytwo{
     height: 10px;
-    width: 65%;
+    width: 45%;
     margin-bottom: 15px;
     background-color: royalblue;
    

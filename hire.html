@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Me </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgba(128, 128, 128, 0.233);
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .container{
+            border: 2px solid red;
+            height: 90vh;
+            margin: 40px;
+            background-color: #145dac;
+
+        }
+        .hireme{
+            border: 2px solid white;
+            height: 80vh;
+            margin: 20px;
+          background-color: #145dac;
+        }
+        .hiretext h1{
+            height: 10vh;
+            margin: 20px;
+            font-weight: lighter;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+        }
+        
+        .formhireme{
+            border: 2px solid black;
+            display: flex;
+        }
+        .formone{
+            border: 2px solid red;
+            flex: 3;
+            margin-left: 20px;
+        }
+        .formtwo{
+            border: 2px solid black;
+            flex: 3;
+        }
+        .formone-content input{
+            display: block;
+            border: 2px solid white;
+        }
+        label{
+            color: white;
+        }
+        input{
+            background-color: #0f3763;
+            width: 90%;
+            padding: 10px 0px;
+            margin-bottom: 30px;
+            margin-top: 10px;  
+        }
+        ::placeholder{
+            color: white;
+            font-size: 10px;
+            padding: 10px;
+        }
+        button{
+            width: 25%;
+            padding: 10px;
+            color: #145dac;
+            font-weight: bolder;
+            outline: none;
+            border: none;
+            background-color: white;
+        }
+        button:hover{
+            font-weight: bolder;
+            background-color: red;
+            color: white;
+
+        }
+        .formtwo-content {
+            display: block;
+            
+        }
+       textarea{
+        background-color: #0f3763;
+            margin-top: 15px;
+            color: white;
+            font-size: 12px;
+            padding: 5px 0px;
+        }
+     
+/* ----------MEDIA QUERY */
+@media (max-width: 600px){
+    .formhireme{
+        display: block;
+    }
+    .formone{
+          
+            margin-left: 20px;
+        }
+        .formtwo{
+            margin-left: 20px;
+            margin-top: 5px;
+
+        }
+        button{
+            width: 30%;
+            padding: 10px;
+            color: #145dac;
+            font-weight: bolder;
+            outline: none;
+            border: none;
+            background-color: white;
+        }
+        button:hover{
+            font-weight: bolder;
+            background-color: red;
+            color: white;
+
+        }
+        .container{
+          
+           
+            margin: 20px;
+            background-color: #145dac;
+
+        }
+        .hireme{
+            margin: 5px;
+        }
+}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hireme">
+            <div class="hiretext">
+                <h1>Get in Touch<span style="color: white;">___</span></h1>
+            </div>
+                <div class="formhireme">
+                    <form class="formone" action="" method="post">
+                       <div class="formone-content">
+                        <label for="name">Name *</label>
+                        <input type="text" name="name" id="" placeholder="Enter Your Name" required>
+
+                        <label for="name">Email *</label>
+                        <input type="text" name="name" id="" placeholder="Enter Your Email Id" required>
+
+                        
+                       </div>
+
+                    </form>
+                    <form class="formtwo" action="" method="post">
+                        <div class="">
+                            <label for="textarea">Send a Message *</label><br>
+                        <textarea name="" id="" cols="30" rows="10">Enter Your Message</textarea>
+                        </div>
+                        <a href=""><button type="submit">Submit</button></a>
+                    </form>
+
+                </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>
