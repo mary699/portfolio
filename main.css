@@ -78,6 +78,7 @@ label{
     margin: 0px 90px;
     box-shadow: rgb(158, 167, 177 ,0.3) ;
     border: 4px solid black;
+    display: block;
 }
 
 
@@ -350,7 +351,9 @@ background-color: red;
 /* -----------SKILLS ENDS HERE */
 
 /* -------PROJECTS STARTS HERE */
-
+.projects{
+    display: block;
+}
 .project{
     background-color: rgba(128, 128, 128, 0.111);
     display: block;
@@ -422,7 +425,9 @@ background-color: red;
 
 /* -------PROJECTS ENDS HERE */
 /* ----------------EDUCATION AND EXPERIENCE STARTS HERE*/
-
+.eduex{
+    display: block;
+}
 .eduexp{
     /* border: 2px solid red; */
     height: 60vh;
@@ -823,7 +828,7 @@ height: 30vh;
     flex: 2;
     text-align: center;
 }
-.skill-right-first-box img{
+.skill-right-first-box svg{
     width: 35%;
    
 }
