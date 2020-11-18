@@ -223,8 +223,10 @@ label{
 
 
 }
-.service-detail-icon{
-
+.service-detail-icon svg{
+width: 100%;
+margin: auto;
+padding-top: 5px ;
 }
 .service-detail-header h1{
     font-size: 20px;
@@ -270,14 +272,14 @@ label{
 }
 .skill-left-third{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
 }
 
 .skill-left-third p{
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 1.5rem;
     color: black;
 }
@@ -339,7 +341,7 @@ label{
 
 .skill-right-second p{
     color: grey;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.3rem;
@@ -565,7 +567,7 @@ footer{
  footer p{
      color: white;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     font-size: 12px;
+     font-size: 14px;
      text-align: center;
      padding-top: 20px;
      font-weight: bold;
