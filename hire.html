@@ -15,14 +15,12 @@
             font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         }
         .container{
-            border: 2px solid red;
             height: 90vh;
             margin: 40px;
             background-color: #145dac;
 
         }
         .hireme{
-            border: 2px solid white;
             height: 80vh;
             margin: 20px;
           background-color: #145dac;
@@ -36,21 +34,17 @@
         }
         
         .formhireme{
-            border: 2px solid black;
             display: flex;
         }
         .formone{
-            border: 2px solid red;
             flex: 3;
             margin-left: 20px;
         }
         .formtwo{
-            border: 2px solid black;
             flex: 3;
         }
         .formone-content input{
             display: block;
-            border: 2px solid white;
         }
         label{
             color: white;
@@ -61,6 +55,8 @@
             padding: 10px 0px;
             margin-bottom: 30px;
             margin-top: 10px;  
+            border: none;
+            outline: none;
         }
         ::placeholder{
             color: white;
@@ -87,11 +83,13 @@
             
         }
        textarea{
-        background-color: #0f3763;
+             background-color: #0f3763;
             margin-top: 15px;
             color: white;
             font-size: 12px;
             padding: 5px 0px;
+            border: none;
+            outline: none;
         }
      
 /* ----------MEDIA QUERY */
@@ -123,15 +121,37 @@
             color: white;
 
         }
-        .container{
-          
-           
+        .container{   
             margin: 20px;
             background-color: #145dac;
+            height: 150vh;
 
         }
         .hireme{
             margin: 5px;
+            height: 140vh;
+        }
+        .hiretext h1{
+            margin:  20px;
+            font-weight: lighter;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: white;
+            font-size: 20px;
+        }
+        label{
+            font-size: 16px;
+        }
+        ::placeholder{
+            font-size: 13px;
+        }
+        input{
+            border: none;
+            outline: none;
+        }
+        textarea{
+            
+            border: none;
+            outline: none;
         }
 }
     
