@@ -555,7 +555,6 @@ font-size: 18px;
 
 /* Footer */
 footer{
-    border: 1px solid white;
     height: 10vh;
     margin-top: 5px;
     border-left:none ;
@@ -564,7 +563,7 @@ footer{
 
 }
  footer p{
-     color: black;
+     color: white;
      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
      font-size: 12px;
      text-align: center;
