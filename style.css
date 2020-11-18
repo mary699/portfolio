@@ -5,7 +5,7 @@
 }
 body{
     background-color: #145dac;
-    height:550vh;
+    height:530vh;
 }
 a{
     text-decoration: none;
@@ -73,11 +73,11 @@ label{
 
 /* --------------SUB-DIV STARTS HERE */
 .sub-div{
-    height: 515vh;
+    height: 500vh;
     background-color: white;
     margin: 0px 90px;
     box-shadow: rgb(158, 167, 177 ,0.3) ;
-    border: 1px solid black;
+    border: 4px solid black;
     display: block;
 }
 
@@ -538,6 +538,7 @@ font-size: 18px;
 
 .contact{
     height: 50vh;
+    border: 2px solid red;
 }
 .contact-text h1{
     font-size: 33px;
@@ -607,10 +608,10 @@ footer{
 /* NAVIGATION START HERE */
   
 body{
-    height: 550vh;
+    height:250vh;
 }
 .sub-div{
-    height: 450vh;
+    height: 20vh;
 }
 
 
@@ -1081,9 +1082,10 @@ font-size: 16px;
 /* ------------------CONTACT PAGE ENDS HERE */
 
 footer p{
-    color: black;
+    color: white;
     display: block;
     position: relative;
     top: 1570px;
+    padding: 20px;
 }
 }
