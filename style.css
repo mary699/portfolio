@@ -641,7 +641,7 @@ label{
     color: white; 
     background-color:#145dac ;
     font-weight: bolder;
-    border: 1px solid rgba(0, 0, 0, 0.158);
+    border: 1px solid rgba(255, 255, 255, 0.89);
     width: 100%;
 }
 .menu a:hover{
