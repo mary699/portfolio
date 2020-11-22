@@ -253,9 +253,10 @@ padding-top: 5px ;
 }
 
 .skill-left{
-    border: 2px solid red;
     margin: 20px 29px 20px 5px;
     width: 50%;
+    padding-left: 10px;
+
 }
 .skill-left-first h1{
     
@@ -269,11 +270,17 @@ padding-top: 5px ;
     font-size: 18px;
     line-height: 1.5rem;
     color: grey;
+    padding-left: 10px;
+
+
 }
 .skill-left-third{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 14px;
     margin-top: 20px;
+    border: 2px solid red;
+    padding-left: 10px;
+
 }
 
 .skill-left-third p{
@@ -282,6 +289,9 @@ padding-top: 5px ;
     font-size: 14px;
     line-height: 1.5rem;
     color: black;
+    border: 2px solid red;
+    padding-left: 10px;
+
 }
 
 .emptyone{
@@ -313,7 +323,7 @@ padding-top: 5px ;
     flex: 3;
     position: relative;
     top: 0px;
-    right: -450px;
+    right: -430px;
     top: -240px;
 
 
@@ -809,11 +819,15 @@ height: 30vh;
 .skill-left{
     /* border: 2px solid red; */
  display: block;
-    margin: 20px 10px 20px 15px;
+ width: 100%;
+
 }
 .skill-right{
     display: block;
-    margin: 20px;
+position: relative;
+top: auto;
+left: -18px;
+width: 100%;
 
 
 }
