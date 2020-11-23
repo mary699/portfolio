@@ -138,6 +138,7 @@ label{
 
 .abouttext-first h1{
     font-weight: lighter;
+    font-size: 33px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .abouttext-second h4{
@@ -202,6 +203,7 @@ label{
 }
 .servicetext h1{
     height: 10vh;
+    font-size: 33px;
     margin: 20px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -257,7 +259,7 @@ label{
 
 }
 .skill-left-first h1{
-    
+    font-size: 33px;
     font-weight: lighter;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
